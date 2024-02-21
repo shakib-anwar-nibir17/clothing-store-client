@@ -52,7 +52,9 @@ const Routes = createBrowserRouter([
           </PrivateRoute>
         ), //shared folder
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/products/${params.id}`),
+          fetch(
+            `https://e-commerce-server-ecru.vercel.app/products/${params.id}`
+          ),
       },
       {
         path: "/update/:id",
@@ -62,7 +64,9 @@ const Routes = createBrowserRouter([
           </PrivateRoute>
         ),
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/products/${params.id}`),
+          fetch(
+            `https://e-commerce-server-ecru.vercel.app/products/${params.id}`
+          ),
       },
     ],
   },
