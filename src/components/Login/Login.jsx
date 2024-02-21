@@ -1,6 +1,7 @@
 import { Link, useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
 import useAuth from "../../Hooks/useAuth";
+import GoogleSignIn from "../GoogleSignIn/GoogleSignIn";
 
 const Login = () => {
   const { userSignIn } = useAuth();
@@ -67,7 +68,7 @@ const Login = () => {
           </div>
         </form>
         <p className="text-center font-medium">or Sign In With</p>
-
+        <GoogleSignIn />
         <p className="text-center font-medium mt-8 mb-10">
           Do not have an account?
           <span className="text-blue-600 ml-2">

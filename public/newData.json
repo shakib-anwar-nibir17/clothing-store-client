@@ -1,0 +1,137 @@
+[
+  {
+    "image": "https://i.ibb.co/K5NKyp5/selling-products10.jpg",
+    "name": "Striped Cotton T-Shirt",
+    "type": "featured",
+    "price": 29.99,
+    "rating": 4.5,
+    "brand": "XYZ Clothing Co.",
+    "details": "A comfortable and stylish striped cotton t-shirt for everyday wear."
+  },
+  {
+    "image": "https://i.ibb.co/D9c0VvK/selling-products5.jpg",
+    "name": "Slim Fit Denim Jeans",
+    "type": "featured",
+    "price": 49.99,
+    "rating": 4.2,
+    "brand": "ABC Denim",
+    "details": "Classic slim-fit denim jeans with a modern twist. Perfect for casual outings."
+  },
+  {
+    "image": "https://i.ibb.co/bNPCb1W/selling-products4.jpg",
+    "name": "Hooded Sweatshirt",
+    "type": "featured",
+    "price": 39.99,
+    "rating": 4.7,
+    "brand": "Urban Wear",
+    "details": "Stay cozy and stylish with this hooded sweatshirt. Great for layering in colder weather."
+  },
+  {
+    "image": "https://i.ibb.co/YhVPJZb/product-7.png",
+    "name": "Knit Sweater",
+    "type": "new",
+    "price": 59.99,
+    "rating": 4.8,
+    "brand": "Fashion Forward",
+    "details": "A trendy knit sweater to keep you warm and stylish during the upcoming season."
+  },
+  {
+    "image": "https://i.ibb.co/bFJm3m2/selling-products6.jpg",
+    "name": "Tailored Suit",
+    "type": "new",
+    "price": 279.99,
+    "rating": 4.9,
+    "brand": "Elegant Designs",
+    "details": "Look sharp and sophisticated in this impeccably tailored suit, perfect for formal occasions."
+  },
+  {
+    "image": "https://i.ibb.co/2YGnTVX/selling-products11.jpg",
+    "name": "Athletic Joggers",
+    "type": "new",
+    "price": 69.99,
+    "rating": 4.6,
+    "brand": "Active Gear",
+    "details": "Stay comfortable and stylish during workouts or casual outings with these athletic joggers."
+  },
+  {
+    "image": "https://i.ibb.co/zPSsfXp/selling-products9.jpg",
+    "name": "Leather Jacket",
+    "type": "men",
+    "price": 199.99,
+    "rating": 4.4,
+    "brand": "Leather Works",
+    "details": "Make a bold statement with this classic leather jacket, perfect for any man's wardrobe."
+  },
+  {
+    "image": "https://i.ibb.co/sgFYffS/selling-products8.jpg",
+    "name": "Plaid T-Shirt",
+    "type": "men",
+    "price": 34.99,
+    "rating": 4.3,
+    "brand": "Casual Styles",
+    "details": "A versatile plaid T-shirt suitable for both casual and semi-formal occasions."
+  },
+  {
+    "image": "https://i.ibb.co/Czx4jjD/selling-products2.jpg",
+    "name": "Chinos",
+    "type": "men",
+    "price": 44.99,
+    "rating": 4.7,
+    "brand": "Classic Apparel",
+    "details": "Look effortlessly stylish in these comfortable and well-fitting chinos."
+  },
+  {
+    "image": "https://i.ibb.co/d20RrtM/product-9.png",
+    "name": "Maxi Dress",
+    "type": "women",
+    "price": 59.99,
+    "rating": 4.5,
+    "brand": "Feminine Styles",
+    "details": "Feel elegant and sophisticated in this flowy and flattering maxi dress."
+  },
+  {
+    "image": "https://i.ibb.co/C5sPHjG/product-8.png",
+    "name": "Spring Tops",
+    "type": "women",
+    "price": 89.99,
+    "rating": 4.2,
+    "brand": "Footwear Boutique",
+    "details": "Step out in style with these spring tops, perfect for any occasion."
+  },
+  {
+    "image": "https://i.ibb.co/GpN0hhd/product-5.png",
+    "name": "V neck Tops",
+    "type": "women",
+    "price": 49.99,
+    "rating": 4.6,
+    "brand": "Denim Divas",
+    "details": "Achieve a sleek and stylish look with these form-fitting v necks."
+  },
+  {
+    "image": "https://i.ibb.co/hCtn43m/product-28.png",
+    "name": "Cartoon T-Shirt",
+    "type": "kids",
+    "price": 14.99,
+    "rating": 4.3,
+    "brand": "Kids Zone",
+    "details": "Let your little one showcase their favorite cartoon characters with this adorable t-shirt."
+  },
+  {
+    "image": "https://i.ibb.co/89fbZRd/product-26.png",
+    "name": "Printed Hoodie",
+    "type": "kids",
+    "price": 19.99,
+    "rating": 4.0,
+    "brand": "Cool Kids Apparel",
+    "details": "Keep your child cozy and stylish with this fun printed hoodie."
+  },
+  {
+    "image": "https://i.ibb.co/TgVybhh/product-33.png",
+    "name": "Denim Overalls",
+    "type": "kids",
+    "price": 24.99,
+    "rating": 4.4,
+    "brand": "Tiny Denim",
+    "details": "Dress your little one in these adorable denim overalls for a cute and casual look."
+  }
+]

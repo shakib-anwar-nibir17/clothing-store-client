@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
 import useAuth from "../../Hooks/useAuth";
+import GoogleSignIn from "../GoogleSignIn/GoogleSignIn";
 
 const Register = () => {
   const { createUser, handleUpdateProfile, logOut } = useAuth();
@@ -102,7 +103,7 @@ const Register = () => {
           <p className="text-red-600 text-center mb-6">{registerError}</p>
         )}
         <p className="text-center font-medium">or Sign In With</p>
-
+        <GoogleSignIn></GoogleSignIn>
         <p className="text-center font-medium mt-8 mb-10">
           Already have an account?
           <span className="text-blue-600 ml-2">
