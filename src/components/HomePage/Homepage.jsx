@@ -1,5 +1,8 @@
 import useProducts from "../../Hooks/useProducts";
+import About from "./About/About";
+import Banner from "./Banner/Banner";
 import ProductSection from "./ProductSection/ProductSection";
+import Services from "./Services/Services";
 
 const Homepage = () => {
   const [products] = useProducts();
@@ -20,6 +23,9 @@ const Homepage = () => {
   console.log(products);
   return (
     <>
+      <Banner />
+      <About />
+      <Services />
       <ProductSection products={featProducts} heading="Our Featured Products" />
       <ProductSection products={newProducts} heading="New Arrivals" />
       <ProductSection products={menProducts} heading="Mens Collection" />
