@@ -1,8 +1,35 @@
-import { useLoaderData } from "react-router-dom";
+import { Link, useLoaderData } from "react-router-dom";
+import Swal from "sweetalert2";
+import useAuth from "../../Hooks/useAuth";
+import useAxiosPublic from "../../Hooks/useAxiosPublic";
 
 const ProductDetail = () => {
+  const { user } = useAuth();
+  const axiosPublic = useAxiosPublic();
   const product = useLoaderData();
-  const { name, brand, image, price, rating, details, type } = product;
+  const { _id, name, brand, image, price, rating, details, type } = product;
+
+  const handleAddProduct = () => {
+    const data = {
+      image: image,
+      name: name,
+      user: user?.displayName,
+      email: user?.email,
+    };
+    console.log(data);
+    axiosPublic.post("/carts", data).then((res) => {
+      console.log(res.data);
+      if (res.data.insertedId) {
+        Swal.fire({
+          position: "top-end",
+          icon: "success",
+          title: `${name} has been added`,
+          showConfirmButton: false,
+          timer: 1000,
+        });
+      }
+    });
+  };
   return (
     <div className="flex mt-10 justify-between items-center">
       <div>
@@ -29,12 +56,17 @@ const ProductDetail = () => {
           <span className="font-bold">Rating:</span> {rating}
         </p>
         <div className="flex gap-5 mt-6">
-          <button className="btn btn-sm border-2 border-black">
+          <button
+            onClick={handleAddProduct}
+            className="btn btn-sm border-2 border-black"
+          >
             ADD PRODUCT
           </button>
-          <button className="btn btn-sm border-2 border-black">
-            EDIT PRODUCT
-          </button>
+          <Link to={`/update/${_id}`}>
+            <button className="btn btn-sm border-2 border-black">
+              EDIT PRODUCT
+            </button>
+          </Link>
         </div>
       </div>
     </div>

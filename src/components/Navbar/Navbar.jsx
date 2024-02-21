@@ -40,7 +40,7 @@ const Navbar = () => {
       </li>
       <li>
         <NavLink
-          to="/my_cart"
+          to="/cart"
           className={({ isActive }) =>
             isActive
               ? "text-white bg-black lg:p-4 border-2 border-black mr-2"
