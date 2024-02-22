@@ -48,7 +48,7 @@ const UpdatePage = () => {
       });
   };
   return (
-    <div>
+    <div className="px-4">
       <div>
         <h1 className="text-4xl text-black font-extrabold text-center mb-10 mt-10 hover:text-blue-600">
           Product Update Form

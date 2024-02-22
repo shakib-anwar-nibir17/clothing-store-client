@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 const CardCard = ({ product }) => {
   const { name, image } = product;
   return (
-    <div className="card w-96 bg-base-100 shadow-xl mb-10">
+    <div className="card w-96 bg-base-100 shadow-xl mb-10 mx-auto">
       <figure>
         <img src={image} alt={name} />
       </figure>

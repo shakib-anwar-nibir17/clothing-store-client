@@ -2,7 +2,7 @@ import play from "../../../assets/images/pngwing 1.png";
 import app from "../../../assets/images/pngwing 2.png";
 const GetApp = () => {
   return (
-    <div className="mt-20">
+    <div className="mt-20 mb-20 md:mb-5">
       <div
         className="container mx-auto h-[200] bg-black flex flex-col lg:flex-row py-10 rounded-[45px] items-center justify-between px-6
     "

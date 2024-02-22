@@ -31,11 +31,11 @@ const ProductDetail = () => {
     });
   };
   return (
-    <div className="flex mt-10 justify-between items-center">
+    <div className="flex flex-col lg:flex-row mt-10 justify-between items-center px-4">
       <div>
         <img src={image} alt="" />
       </div>
-      <div className="text-2xl text-black">
+      <div className="text-2xl text-black mt-8 lg:mt-0">
         <p>
           <span className="font-bold">Product Name:</span> {name}
         </p>

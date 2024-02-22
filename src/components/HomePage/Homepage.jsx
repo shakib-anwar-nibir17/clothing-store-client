@@ -26,15 +26,20 @@ const Homepage = () => {
   return (
     <>
       <Banner />
-      <About />
       <Services />
-      <Review />
-      <GetApp />
-      <ProductSection products={featProducts} heading="Our Featured Products" />
+      <About />
+      <div className="mt-40 md:mt-0">
+        <ProductSection
+          products={featProducts}
+          heading="Our Featured Products"
+        />
+      </div>
       <ProductSection products={newProducts} heading="New Arrivals" />
+      <GetApp />
       <ProductSection products={menProducts} heading="Mens Collection" />
       <ProductSection products={womenProducts} heading="Women Collection" />
       <ProductSection products={kidsProducts} heading="Kids Clothing" />
+      <Review />
     </>
   );
 };
